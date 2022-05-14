@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Note_Activity"
+    android:orientation="vertical"
+    >
+<EditText
+android:id="@+id/Note_title"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:gravity="center"
+    android:hint="NoteTitle"
+    android:inputType="textPersonName"
+    android:textSize="27sp"
+    android:textStyle="bold"
+android:padding="5dp" />
+
+<EditText
+android:id="@+id/Note_details"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="10dp"
+android:layout_weight="20"
+android:ems="1000"
+android:gravity="start"
+android:hint="Note Deatails"
+android:inputType="textPersonName"
+android:padding="5dp" />
+</LinearLayout>

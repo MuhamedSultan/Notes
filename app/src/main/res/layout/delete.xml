@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="15dp">
+
+    <EditText
+        android:id="@+id/title_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:hint="NoteTitle"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/note_delete"
+        android:layout_width="398dp"
+        android:layout_height="174dp"
+        android:layout_gravity="center"
+        android:gravity="center|top"
+        android:hint="NoteDetails"
+        android:padding="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Delete"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn"
+            android:text="Delete"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Update"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textSize="25sp" />
+
+    </LinearLayout><![CDATA[
+
+    />
+
+]]>
+</LinearLayout>
